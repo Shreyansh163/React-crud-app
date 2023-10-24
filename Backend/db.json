@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "title": "react",
+      "body": "library",
+      "trainer": "shrey",
+      "id": 1
+    },
+    {
+      "title": "javascript",
+      "trainer": "rahul",
+      "body": "language",
+      "id": 2
+    },
+    {
+      "title": "advance java",
+      "body": "backend",
+      "trainer": "anvith",
+      "id": 6
+    },
+    {
+      "title": "html",
+      "trainer": "ankita",
+      "body": "css",
+      "id": 7
+    },
+    {
+      "title": "React",
+      "trainer": "shrey",
+      "body": "Starting this diwali",
+      "id": 9
+    }
+  ]
+}

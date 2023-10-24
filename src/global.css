@@ -1,0 +1,48 @@
+@import url("bootstrap/dist/css/bootstrap.min.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.allPostContainer {
+    /* border: 2px solid red; */
+    background: linear-gradient(rgb(113, 113, 113), black);
+    height: 92.5vh;
+}
+
+.allPostContainer article {
+    width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.allPostContainer article aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: linear-gradient(black, gray);
+    color: white;
+    border-radius: 5px;
+    /* flex-basis: 15%; */
+    /* align-items: center; */
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.allPostContainer article aside h3,p {
+    /* background-color: black; */
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid gray; */
+    padding: 0 10px;
+    /* border-radius: 5px; */
+    /* box-shadow: 1px 1px 1px 1px gray ; */
+}
+
