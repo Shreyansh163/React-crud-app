@@ -19,7 +19,7 @@ export let getOnePostService = async (id) => {
   // console.log(id);
   try {
     let { data } = await AxiosServices.get(
-      `http://localhost:5000/posts/${id}`
+      `http://localhost:9000/posts/${id}`
     );
     return data;
   } catch (error) {
@@ -37,14 +37,14 @@ export let editOnePostService = async (id, payload) => {
 
 export let deletePostService = async (id) => {
   try {
-    AxiosServices.delete(`http://localhost:5000/posts/${id}`);
+    AxiosServices.delete(`http://localhost:9000/posts/${id}`);
   } catch (error) {
     console.log(error);
   }
 }
 
 let AxiosServices = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "http://localhost:9000",
 });
 
 export default AxiosServices
