@@ -1,34 +1,34 @@
 {
   "posts": [
     {
-      "title": "react",
-      "body": "library",
-      "trainer": "shrey",
-      "id": 1
-    },
-    {
       "title": "javascript",
       "trainer": "rahul",
       "body": "language",
-      "id": 2
+      "id": "2"
     },
     {
       "title": "advance java",
       "body": "backend",
       "trainer": "anvith",
-      "id": 6
+      "id": "6"
     },
     {
       "title": "html",
       "trainer": "ankita",
       "body": "css",
-      "id": 7
+      "id": "7"
     },
     {
       "title": "React",
       "trainer": "shrey",
       "body": "Starting this diwali",
-      "id": 9
+      "id": "9"
+    },
+    {
+      "title": "Node.JS",
+      "trainer": "Shreyansh",
+      "body": "Become zero to hero in nodejs",
+      "id": "6bb0"
     }
   ]
 }

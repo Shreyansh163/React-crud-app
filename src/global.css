@@ -6,10 +6,50 @@
     padding: 0;
 }
 
+html {
+    background-color: black;
+}
+
+.dashboard {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid rgb(255, 249, 249); /* optional cursor */
+  font-family: monospace;
+  font-weight: bold;
+  animation: typing 2s steps(21), blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 21ch; /* number of characters */
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
 .allPostContainer {
     /* border: 2px solid red; */
     background: linear-gradient(rgb(113, 113, 113), black);
-    height: 92.5vh;
+    height: 100vh;
 }
 
 .allPostContainer article {
